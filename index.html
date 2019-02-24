@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Hundir la flota</title>
+		<link href="css/styles.css"  rel="stylesheet" media="all"/>
+	</head>
+	<body>
+		<div class="container">
+			<h1>¡Bienvenido a Hundir la flota!</h1>
+			<div class="game-container">
+				<div id="roster-sidebar">
+						<h2>Seleccione como quiere colocar sus barcos</h2>
+						<!--<button id="rotate-button" data-direction="0">Rotate Ship</button>
+						<button id="start-game" class="hidden">Start Game</button>-->
+						<button id="place-manual">Manual</button>
+						<button id="place-randomly">Aleatorio</button>
+						<button id="barco-porta" class="hidden">Portaviones</button>
+						<button id="barco-aco" class="hidden">Acorazados</button>
+						<button id="barco-cruce" class="hidden">Cruceros</button>
+						<button id="barco-des" class="hidden">Destructor</button>
+				</div>
+				<div class="grid-container">
+					<h2>Tu flota</h2>
+					<div class="grid human-player" id="human-player">
+					</div>
+				</div>
+				<div class="grid-container">
+					<h2>Flota enemiga</h2>
+					<div class="grid computer-player" id = "computer-player">
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	
+	<script src="js/tablero.js"></script>
+    <script src="js/barco.js"></script>
+    <script src="js/flota.js"></script>
+    <script src="js/flotajugador.js"></script>
+
+    <script src="js/game.js"></script>
+</html>
